@@ -34,7 +34,10 @@ namespace NumToWord
         private static string GetWord(string number, WordNotation notation)
         {
             StrategyContext strategy = new StrategyContext();
-            strategy.SetNewStrategy(new UsCurrencyStrategy());
+            if (notation == WordNotation.Million)
+            {
+                strategy.SetNewStrategy(new UsCurrencyStrategy());
+            }
             return strategy.GetWord(number);
         }
 
