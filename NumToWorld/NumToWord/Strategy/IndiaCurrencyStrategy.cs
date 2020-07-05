@@ -7,21 +7,7 @@ namespace NumToWord.Strategy
 {
     internal class IndiaCurrencyStrategy : CurrencyStrategy
     {
-        public  string GetWord(string number)
-        {
-            string fword = string.Empty;
-            if (number.Contains("."))
-            {
-                fword = IntegerNumber(number.Substring(0,number.IndexOf("."))) +" Point "+ (((number.IndexOf(".")+1)<= number.Length)? AfterDecimal(number.Substring(number.IndexOf(".")+1)):"");
-            }
-            else
-            {
-                fword = IntegerNumber(number);
-            }
-            return fword;
-        }
-        
-
+       
         protected override string GetPlaceValue(string number, out int pos)
         {
             int numDigit = number.Length;

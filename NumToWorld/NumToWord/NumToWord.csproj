@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Shubham Kumar</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryType>Public</RepositoryType>
+    <RepositoryUrl>https://github.com/shubhamrajput1550/NumberToWord</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/shubhamrajput1550/NumberToWord</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/shubhamrajput1550/NumberToWord</PackageLicenseUrl>
+    <Copyright />
+    <Company>Predictive Solution</Company>
+    <PackageTags>Number2Word</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.1</Version>
+    <Description>Library is used for converting number to word. Support Indian and US culture.</Description>
   </PropertyGroup>
 
   <ItemGroup>

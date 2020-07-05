@@ -18,8 +18,8 @@ namespace NumToWorld
             while ((i--) > 0)
             {
 
-                double rNum = r.Next(int.MinValue, int.MaxValue);
-                string word = Num2Word.ToWord(rNum);
+                int rNum = r.Next(1, 4999);
+                string word = Num2Roman.ToWord(rNum);
 
                 Console.WriteLine(rNum + "  ====  " + word);
 
