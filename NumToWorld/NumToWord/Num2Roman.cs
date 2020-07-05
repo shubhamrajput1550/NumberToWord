@@ -6,17 +6,17 @@ using System.Text;
 namespace NumToWord
 {
     /// <summary>
-    /// Used to Convert Number to Romman Number
+    /// Used to Convert Number to Roman Number
     /// Limit 1 - 4999
     /// </summary>
     public class Num2Roman
     {
         /// <summary>
-        /// Used for converting integer number to Romman Representation
+        /// Used for converting integer number to Roman Representation
         /// </summary>
         /// <param name="num">Number with limit 1-4999</param>
         /// <returns>Return Roman Representation of Number</returns>
-        public static string ToRomman(int num)
+        public static string ToRoman(int num)
         {
             if(num <1 || num > 4999)
             {
