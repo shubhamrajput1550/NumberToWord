@@ -10,13 +10,13 @@
     <PackageLicenseUrl>https://github.com/shubhamrajput1550/NumberToWord</PackageLicenseUrl>
     <Copyright />
     <Company>Predictive Solution</Company>
-    <PackageTags>Number2Word</PackageTags>
+    <PackageTags>Number2Word Num2Roman NumberToWord NumberToRoman RomanToNumber</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
-    <Version>1.0.1</Version>
-    <Description>Library is used for converting number to word. Support Indian and US culture.</Description>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.3</Version>
+    <Description>Library is used for converting number to word and Number to Roman Number System. Support Indian and US culture.</Description>
   </PropertyGroup>
 
   <ItemGroup>

@@ -117,10 +117,12 @@ namespace NumToWord.Strategy
                     word += RommanOnes.GetOnes(number);
                     number = 0;
                 }
+
                 else if(romanModel.Any(p => p.Value == number))
                 {
+                    
                     var temp = romanModel.FirstOrDefault(p => p.Value == number);
-                    number = number / temp.Value;
+                    number = 0;
                     word +=  temp.Key;
                 }
                 else

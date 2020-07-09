@@ -6,6 +6,6 @@ namespace NumToWord
     {
         Indian,
         Us,
-        Uk
+       // Uk
     }
 }

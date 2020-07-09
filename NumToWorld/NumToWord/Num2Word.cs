@@ -13,7 +13,7 @@ namespace NumToWord
         /// Used to Convert Integer Number to Word
         /// </summary>
         /// <param name="num">Number</param>
-        /// <param name="notation">Indian/Us/UK</param>
+        /// <param name="notation">Indian/Us</param>
         /// <returns>Number Representaion of Word</returns>
         public static string ToWord(int num, WordNotation notation = WordNotation.Indian)
         {
@@ -24,7 +24,7 @@ namespace NumToWord
         /// Used to Convert Integer Number to Word
         /// </summary>
         /// <param name="num">Number</param>
-        /// <param name="notation">Indian/Us/UK</param>
+        /// <param name="notation">Indian/Us</param>
         /// <returns>Number Representaion of Word</returns>
         public static string ToWord(long num, WordNotation notation = WordNotation.Indian)
         {
@@ -35,7 +35,7 @@ namespace NumToWord
         /// Used to Convert Integer Number to Word
         /// </summary>
         /// <param name="num">Number</param>
-        /// <param name="notation">Indian/Us/UK</param>
+        /// <param name="notation">Indian/Us</param>
         /// <returns>Number Representaion of Word</returns>
         public static string ToWord(byte num, WordNotation notation = WordNotation.Indian)
         {
@@ -46,7 +46,7 @@ namespace NumToWord
         /// Used to Convert Real Number to Word
         /// </summary>
         /// <param name="num">Number</param>
-        /// <param name="notation">Indian/Us/UK</param>
+        /// <param name="notation">Indian/Us</param>
         /// <returns>Number Representaion of Word</returns>
         public static string ToWord(double num, WordNotation notation = WordNotation.Indian)
         {
@@ -57,7 +57,7 @@ namespace NumToWord
         /// Used to Convert Real Number to Word
         /// </summary>
         /// <param name="num">Number</param>
-        /// <param name="notation">Indian/Us/UK</param>
+        /// <param name="notation">Indian/Us</param>
         /// <returns>Number Representaion of Word</returns>
         public static string ToWord(decimal num, WordNotation notation = WordNotation.Indian)
         {
